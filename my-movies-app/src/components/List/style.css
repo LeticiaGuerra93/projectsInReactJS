@@ -1,0 +1,53 @@
+.item {
+  margin: 10px;
+  border: 2px dashed black;
+  padding: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .item {
+    width: 20%;
+  }
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+}
+
+.movies img {
+  height: 300px;
+}
+
+.movies .description {
+  margin: 10px 0 0;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .movies .description {
+    height: 150px;
+  }
+}
+
+
+.movies .description span {
+  margin: 10px 0 0;
+}
+
+.movies .description .label-value {
+  font-weight: bold;
+}
+
+.movies .more-info {
+  display: flex;
+  justify-content: end;
+
+}
+
+.movies .more-info img{
+  width: 20px;
+  height: 20px;
+}
